@@ -24,6 +24,10 @@ export default {
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      poppins: ['Poppins', 'sans-serif'], 
+      roboto: ['Roboto', 'sans-serif'],  
+      lato: ['Lato', 'sans-serif'],      
+      montserrat: ['Montserrat', 'sans-serif'],
     },
     extend: {
       spacing: {
