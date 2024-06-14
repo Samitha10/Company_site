@@ -7,6 +7,7 @@ export default {
   theme: {
     colors: {
       'blue-bg' :'#00003C',
+      'purple-bg':'#1b033a',
       'gray-1'  :'#7f7f9d',
       'gray-2'  :'#bfbfce',
       'gray-3'  :'#e6e6ec',
@@ -14,12 +15,12 @@ export default {
       'purple-1':'#afa1eb',
       'purple-2':'#d6cff4',
       'purple-3':'#ebe7fa',
-      'green-1' :'#bff6c2',
+      'green-1' :'#80ee87',
       'green-2' :'#bff6c2',
       'green-3' :'#dffae1',
       'blue-1'  :'#3da5ff',
-      'blue-1'  :'#00003C',
-      'blue-1'  :'#cee8ff',
+      'blue-2'  :'#9ed2ff',
+      'blue-3'  :'#cee8ff',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
@@ -36,6 +37,10 @@ export default {
       },
       borderRadius: {
         '4xl': '2rem',
+      },
+      backgroundImage: {
+        'hero-home': "url('./public/Meteor.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
       }
     }
   },

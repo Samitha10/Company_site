@@ -1,10 +1,11 @@
 import React from "react";
+import '../../public/Meteor.svg'
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>Home Page is here</h1>
-        </div>
+        <section className="bg-[url('/Meteor.svg')]">
+            
+        </section>
     );
 }
 
