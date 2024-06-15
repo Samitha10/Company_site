@@ -2,24 +2,22 @@ import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
+import OctaForgeLogo from "../../../public/OctaForgeLogo.png"
 
 
 
 const NavigationBar = () => {
     return (
             // <div id="navigationBar" className="z-999 flex flex-wrap place-items-center opacity-98 top-0 bg-gradient-to-r from-purple-bg to-blue-bg">
-            <div id="navigationBar" className="z-999 flex flex-wrap place-items-center w-fill opacity-100 top-0 bg-gray-4">
 
-            <section class="relative mx-auto ">
-            
-                <nav class="flex justify-between bg-gray-900 text-white w-screen ">
+            <section class="relative mx-[0px] w-full ">
+                <nav class="flex justify-between bg-gray-900 backdrop-blur-sm text-white w-screen flex-wrap place-items-center  opacity-100 top-0 bg-gray-4 ">
                 <div class="px-5 xl:px-12 py-2 flex w-full items-center">
-                    <a class="text-lg font-bold font-heading text-gray-3" href="#">
-                     {/* <img class="h-9" src="logo.png" alt="logo">  */}
-                    Logo Here.
+                    <a class="text-lg font-bold font-heading text-gray-3 pl-0" href="#">
+                        <img class="ml-0 pl-0 h-10" src="../../../public/OctaForgeLogo.png" alt="logo"/>
                     </a>
                     <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-                    <li><a class="hover:text-blue-bg text-gray-2 font-Poppins" href="#">Home</a></li>
+                    <li><a class="hover:text-gray-1 text-gray-2 font-Poppins" href="#">Home</a></li>
                     <li><a class="hover:text-gray-1 text-gray-2 font-Poppins"  href="#">Catagory</a></li>
                     <li><a class="hover:text-gray-1 text-gray-2 font-Poppins"  href="#">Collections</a></li>
                     <li><a class="hover:text-gray-1 text-gray-2 font-Poppins"  href="#">Contact Us</a></li>
@@ -54,8 +52,9 @@ const NavigationBar = () => {
                 </a>
                 </nav>
                 
-            </section>
-            </div>
+            
+            
+        </section>
             
     );
 }
