@@ -10,7 +10,7 @@ const HomePage = () => {
             {/* <div id="herotopic" className="flex h-screen justify-center items-center dark:bg-slate-800 z-2"> */}
             <div id="herotopic" className="flex h-full w-full justify-center items-center dark:bg-slate-800">    
     
-                <div className="mx-auto pt-[13vh] pb-[13vh] flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-4 lg:px-8">
+                <div className="mx-auto pt-[13vh] pb-[21vh] flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-4 lg:px-8">
                     <div class="text-center items-center justify-center lg:top-[10px] ">
                         <div className="flex justify-center ">
                             <img className="h-[150px] self-center" src="../../../public/OctaForgeLogo.png" alt="logo"/>

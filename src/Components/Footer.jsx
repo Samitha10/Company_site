@@ -20,7 +20,7 @@ const Footer = () => {
                             </svg> */}
                             <img class="h-12" src="../../../public/OctaForgeLogo.png" alt="logo"/>
 
-                            <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">OctaForge</span>
+                            {/* <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">OctaForge</span> */}
                         </a>
                         <div class="mt-6 lg:max-w-sm text-gray-2">
                             <p class="text-sm text-gray-800">
