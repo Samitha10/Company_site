@@ -1,6 +1,3 @@
-// relative bg-black-100 flex justify-center 
-//     items-center flex-col mx-auto sm:px-10 px-5 overflow-clip
-
 import React from "react";
 import NavigationBar from './UI/NavigationBar';
 import HomePage from "./Home";

@@ -1,16 +1,15 @@
 import React from "react";
 import "../../public/line-bg.svg"
-import BackgroundAnimation from "./UI/BackgroundAnimation";
 
 const HomePage = () => {
     return (
-        <section className="bg-[url('../../public/line-bg.svg')] bg-cover bg-center  w-full">
+        <section className="bg-[url('../../public/line-bg-gray3-gray6.svg')] bg-cover bg-center  w-full">
         {/* // <section className="bg-cover bg-center  w-full"> */}
             {/* <BackgroundAnimation className="z-1"> */}
             {/* <div id="herotopic" className="flex h-screen justify-center items-center dark:bg-slate-800 z-2"> */}
             <div id="herotopic" className="flex h-full w-full justify-center items-center dark:bg-slate-800">    
     
-                <div className="mx-auto pt-[13vh] pb-[21vh] flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-4 lg:px-8">
+                <div className="mx-auto pt-[17vh] pb-[27vh] flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-4 lg:px-8">
                     <div class="text-center items-center justify-center lg:top-[10px] ">
                         <div className="flex justify-center ">
                             <img className="h-[150px] self-center" src="../../../public/OctaForgeLogo.png" alt="logo"/>
@@ -18,11 +17,12 @@ const HomePage = () => {
                         </div>
 
                         <h1
-                            class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-slate-200 sm:text-5xl md:text-6xl">
-                            <span class="block xl:inline"><span class="mb-1 block font-poppins text-blue-bg">Empowering Ideas through</span>
-                            <span class="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text text-transparent text-blue-1">
-                                Technology...
-                            </span>
+                            class="text-4xl font-extrabold tracking-tight  dark:text-slate-200 sm:text-5xl md:text-6xl">
+                            <span class="flex xl:inline">
+                                <span class="mb-1  font-medium font-poppins text-blue-bg">Where IT meets&nbsp;</span>
+                                <span class="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text font-medium text-transparent text-blue-1">
+                                Imagination
+                                </span>
                             </span>
                             <div class="mt-2">
                                 {/* <span class="relative mt-3 whitespace-nowrap text-blue-600">
