@@ -18,10 +18,10 @@ const HomePage = () => {
 
                         <h1
                             class="text-4xl font-extrabold tracking-tight  dark:text-slate-200 sm:text-5xl md:text-6xl">
-                            <span class="flex xl:inline">
-                                <span class="mb-1  font-medium font-poppins text-blue-bg">Where IT meets&nbsp;</span>
-                                <span class="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text font-medium text-transparent text-blue-1">
-                                Imagination
+                            <span class="flex flex-col xl:flex-row">
+                                <span class="mb-1 font-medium font-poppins text-blue-bg block xl:inline">Where IT meets&nbsp;</span>
+                                <span class="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text font-medium text-transparent text-blue-1 block xl:inline">
+                                    Imagination
                                 </span>
                             </span>
                             <div class="mt-2">
