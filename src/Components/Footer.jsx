@@ -3,6 +3,7 @@ import "../../public/line-bg.svg"
 import { BsLinkedin } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsTwitterX } from "react-icons/bs";
+import Logo from "../assets/Images/Logo.png";
 
 const Footer = () => {
     return (
@@ -17,7 +18,7 @@ const Footer = () => {
                             <rect x="14" y="1" width="7" height="6"></rect>
                             <rect x="14" y="11" width="7" height="12"></rect>
                             </svg> */}
-                            <img class="h-[80px] mt-[5px]" src="../../../public/OctaForgeLogo.png" alt="logo"/>
+                            <img class="h-[80px] mt-[5px]" src={Logo} alt="logo"/>
 
                             {/* <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">OctaForge</span> */}
                         </a>

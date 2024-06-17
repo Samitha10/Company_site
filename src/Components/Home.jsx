@@ -1,5 +1,6 @@
 import React from "react";
-import "../../public/line-bg.svg"
+import "../../public/line-bg.svg";
+import Logo from "../assets/Images/Logo.png"
 
 const HomePage = () => {
     return (
@@ -12,7 +13,7 @@ const HomePage = () => {
                 <div className="mx-auto pt-[17vh] pb-[27vh] flex justify-center px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-4 lg:px-8">
                     <div class="text-center items-center justify-center lg:top-[10px] ">
                         <div className="flex justify-center ">
-                            <img className="h-[150px] self-center" src="../../../public/OctaForgeLogo.png" alt="logo"/>
+                            <img className="h-[150px] self-center" src={Logo} alt="logo"/>
 
                         </div>
 
@@ -20,7 +21,7 @@ const HomePage = () => {
                             class="text-4xl font-extrabold tracking-tight  dark:text-slate-200 sm:text-5xl md:text-6xl">
                             <span class="flex flex-col xl:flex-row">
                                 <span class="mb-1 font-medium font-poppins text-blue-bg block xl:inline">Where IT meets&nbsp;</span>
-                                <span class="bg-gradient-to-r from-indigo-400 to-pink-600 bg-clip-text font-medium text-transparent text-blue-1 block xl:inline">
+                                <span class="bg-clip-text font-medium text-transparent text-blue-1 block xl:inline">
                                     Imagination
                                 </span>
                             </span>
