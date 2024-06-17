@@ -1,8 +1,9 @@
-# React + Vite
+# Octa Forge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**The following dependencies should be installed after cloning the repository:**
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```sh
+npm install
+npm install react-icons
+npm install lottie-react
+npm install -D sass
