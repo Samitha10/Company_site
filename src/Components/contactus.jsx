@@ -27,14 +27,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex justify-center items-center w-screen h-screen bg-white">
-      <div className="container mx-auto my-4 px-4 lg:px-20">
-        <div className="w-full p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 mr-auto rounded-2xl shadow-2xl">
+
+        <div className="w-full p-8 my-12 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40  rounded-2xl shadow-2xl mx-auto ">
           <form onSubmit={onSubmit}>
-            <div className="flex">
-              <h1 className="font-bold uppercase text-5xl">Send us a <br /> message</h1>
+            <div className="flex ">
+              <h1 className="font-bold uppercase text-5xl flex">Send us a message</h1>
             </div>
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-5">
+            <div className="grid grid-cols-1 gap-5 md:grid-cols-1 mt-">
               <input 
                 className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
                 type="text" 
@@ -72,7 +71,7 @@ const Contact = () => {
                 required 
               ></textarea>
             </div>
-            <div className="my-2 w-1/2 lg:w-1/4">
+            <div className="my-2 w-1/2 lg:w-1/4 mx-auto">
               <button 
                 type="submit" 
                 className="uppercase text-sm font-bold tracking-wide bg-blue-1 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
@@ -84,8 +83,7 @@ const Contact = () => {
           </form>
         </div>
         
-      </div>
-    </div>
+   
   );
 };
 

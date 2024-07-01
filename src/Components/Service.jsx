@@ -48,7 +48,7 @@ const Service = () => {
 
             <div className="flex flex-wrap justify-center gap-3">
                 {Services.map(service => (
-                    <div key={service.id} className="bg-white border border-gray-200 rounded-lg shadow-[5px_10px_0px_7px_#0F85EC] dark:bg-gray-700 dark:border-gray-700 m-4 sm:m-6 md:m-10 w-full sm:w-[300px] md:w-[350px] lg:w-[400px] transform hover:scale-105 transition-transform duration-200 ease-in-out">
+                    <div key={service.id} className="bg-white  rounded-lg shadow-xl dark:bg-gray-700  m-4 sm:m-6 md:m-10 w-full sm:w-[300px] md:w-[350px] lg:w-[400px] transform hover:scale-105 transition-transform duration-200 ease-in-out">
                         <div className="flex justify-center my-6">
                             <img
                                 className="rounded-t-lg"
