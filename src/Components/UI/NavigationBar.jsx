@@ -15,7 +15,7 @@ const NavigationBar = () => {
           <a className="text-lg font-bold font-heading text-gray-3 pl-0" href="#home">
             <img className="ml-0 pl-0 h-10" src={Logo} alt="logo" />
           </a>
-          <ul className="sm:hidden hidden md:flex lg:flex xl:flex px-4 mx-auto font-medium font-heading space-x-12">
+          <ul className="sm:hidden hidden md:flex lg:flex xl:flex px-4 mx-auto font-bold font-heading space-x-12">
             <li><a className="text-gray-3 hover:text-gray-2 transition-colors duration-300 font-Poppins" href="#home">Home</a></li>
             <li><a className="text-gray-3 hover:text-gray-2 transition-colors duration-300 font-Poppins" href="#services">Services</a></li>
             <li><a className="text-gray-3 hover:text-gray-2 transition-colors duration-300 font-Poppins" href="#techstack">Tech Stack</a></li>
@@ -40,7 +40,7 @@ const NavigationBar = () => {
           </button>
         </div>
         <div className={`w-full px-5 xl:px-12 py-0 bg-gray-900 transform transition-all duration-200 ease-in-out ${isMenuOpen ? "max-h-screen opacity-100" : "max-h-0  opacity-0 overflow-hidden"}`}>
-          <ul className="flex flex-col space-y-4 font-medium font-heading">
+          <ul className="flex flex-col space-y-4 font-bold font-heading">
             <li><a className="text-gray-3 hover:text-gray-2 transition-colors duration-300 font-Poppins" href="#home">Home</a></li>
             <li><a className="text-gray-3 hover:text-gray-2 transition-colors duration-300 font-Poppins" href="#services">Services</a></li>
             <li><a className="text-gray-3 hover:text-gray-2 transition-colors duration-300 font-Poppins" href="#techstack">Tech Stack</a></li>

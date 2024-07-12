@@ -65,7 +65,7 @@ const HomePage = () => {
               </span>
               <div className="mt-2"></div>
             </h1>
-            <p className="mx-auto mt-3 max-w-xl text-lg text-gray-500 dark:text-slate-400 sm:mt-5 md:mt-5">
+            <p className="mx-auto mt-3 max-w-xl text-lg text-gray-1 dark:text-slate-400 sm:mt-5 md:mt-5">
               OctaForge is a pioneering software startup offering cutting-edge solutions in web and mobile app
               development, AI, UI/UX design, and data analysis. We transform your ideas into innovative and scalable
               digital solutions.

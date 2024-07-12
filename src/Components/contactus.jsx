@@ -28,62 +28,61 @@ const Contact = () => {
 
   return (
 
-        <div className="w-full p-8 my-12 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40  rounded-2xl shadow-2xl mx-auto ">
-          <form onSubmit={onSubmit}>
-            <div className="flex ">
-              <h1 className="font-bold uppercase text-5xl flex">Send us a message</h1>
-            </div>
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-1 mt-">
-              <input 
-                className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
-                type="text" 
-                name="first_name" 
-                placeholder="First Name*" 
-                required 
-              />
-              <input 
-                className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
-                type="text" 
-                name="last_name" 
-                placeholder="Last Name*" 
-                required 
-              />
-              <input 
-                className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
-                type="email" 
-                name="email" 
-                placeholder="Email*" 
-                required 
-              />
-              <input 
-                className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
-                type="number" 
-                name="phone" 
-                placeholder="Phone*" 
-                required 
-              />
-            </div>
-            <div className="my-4">
-              <textarea 
-                name="message" 
-                placeholder="Message*" 
-                className="w-full h-32 bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
-                required 
-              ></textarea>
-            </div>
-            <div className="my-2 w-1/2 lg:w-1/4 mx-auto">
-              <button 
-                type="submit" 
-                className="uppercase text-sm font-bold tracking-wide bg-blue-1 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
-              >
-                Send Message
-              </button>
-            </div>
-            <span className="block mt-4 text-green-500 text-2xl font-bold">{result}</span>
-          </form>
-        </div>
-        
-   
+    <div className="w-full p-8 my-12 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 rounded-2xl shadow-2xl mx-auto text-center border-4 border-gray-4 lg:pl-[100px] lg:pr-[100px]">
+    <form onSubmit={onSubmit} className="justify-center w-full">
+      <div className="flex justify-center">
+        <h1 className="uppercase text-5xl flex font-bold text-blue-bg mb-10">Send us a message</h1>
+      </div>
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-1 w-full">
+        <input 
+          className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
+          type="text" 
+          name="first_name" 
+          placeholder="First Name*" 
+          required 
+        />
+        <input 
+          className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
+          type="text" 
+          name="last_name" 
+          placeholder="Last Name*" 
+          required 
+        />
+        <input 
+          className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
+          type="email" 
+          name="email" 
+          placeholder="Email*" 
+          required 
+        />
+        <input 
+          className="w-full bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
+          type="number" 
+          name="phone" 
+          placeholder="Phone*" 
+          required 
+        />
+      </div>
+      <div className="my-4">
+        <textarea 
+          name="message" 
+          placeholder="Message*" 
+          className="w-full h-32 bg-gray-6 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" 
+          required 
+        ></textarea>
+      </div>
+      <div className="my-2 w-1/2 lg:w-1/4 mx-auto mt-10">
+        <button 
+          type="submit" 
+          className="uppercase text-gray-5 text-medium font-bold tracking-wide bg-blue-1 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline transform transition duration-200 hover:scale-100 hover active:bg-blue-500 active:text-white active:scale-95"
+          >
+          Send Message
+        </button>
+      </div>
+      <span className="block mt-4 text-green-500 text-2xl font-bold">{result}</span>
+    </form>
+  </div>
+  
   );
 };
 

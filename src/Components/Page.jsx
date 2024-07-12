@@ -11,7 +11,9 @@ const Page = () => {
   return (
     <main className="flex justify-center items-center flex-col w-full">
       <div className="w-full">
-        <NavigationBar />
+        <div className="fixed top-0 left-0 right-0 z-50">
+          <NavigationBar />
+         </div>
         <section id="home">
           <HomePage />
         </section>
@@ -21,9 +23,9 @@ const Page = () => {
         <section id="techstack">
           <TechStack />
         </section>
-        <section id="testimonials">
+        {/* <section id="testimonials">
           <CustomerTestimonials />
-        </section>
+        </section> */}
         <section id="contact">
           <Contact />
         </section>

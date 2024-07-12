@@ -121,7 +121,7 @@ const TechStack = () => {
         </div>
       ))}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20 bg-gray-100 bg-opacity-75 px-4 py-2 rounded-lg">
-        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-gray-800">Our Tech Stack</h1>
+        <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold text-blue-bg">Our Tech Stack</h1>
       </div>
     </div>
   );

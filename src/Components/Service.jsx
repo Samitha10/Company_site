@@ -38,17 +38,17 @@ const Service = () => {
         <>
         <div className = "my-20">
             <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl my-6">
-                <h3 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900">
+                <h3 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold text-blue-bg">
                     Our Services
                 </h3>
-                <p className="mb-6 pb-2 md:mb-12 md:pb-0 text-gray-600">
+                <p className="mb-6 pb-2 md:mb-12 md:pb-0 font-bold text-gray-2 text-b">
                 Transforming Ideas into Reality with Cutting-Edge Solutions
                 </p>
             </div>
 
             <div className="flex flex-wrap justify-center gap-3">
                 {Services.map(service => (
-                    <div key={service.id} className="bg-white  rounded-lg shadow-xl dark:bg-gray-700  m-4 sm:m-6 md:m-10 w-full sm:w-[300px] md:w-[350px] lg:w-[400px] transform hover:scale-105 transition-transform duration-200 ease-in-out">
+                    <div key={service.id} className="rounded-[25px] border-[5px] border-gray-4 bg-gray-6  rounded-lg shadow-xl dark:bg-gray-700  m-4 sm:m-6 md:m-10 w-full sm:w-[300px] md:w-[350px] lg:w-[400px] transform hover:scale-105 transition-transform duration-200 ease-in-out">
                         <div className="flex justify-center my-6">
                             <img
                                 className="rounded-t-lg"
@@ -70,6 +70,7 @@ const Service = () => {
                     </div>
                 ))}
             </div>
+            
 
             </div>
         </>

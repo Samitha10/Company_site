@@ -2,10 +2,10 @@ export const CustomerTestimonials = () => {
   return (
     <section className="text-gray-700 dark:text-neutral-300 my-10  py-10">
       <div className="mx-auto text-center md:max-w-xl lg:max-w-3xl">
-        <h3 className="mb-6 text-3xl md:text-4xl lg:text-6xl font-bold text-gray-900">
+        <h3 className="mb-6 text-3xl md:text-4xl lg:text-6xl font-bold text-blue-bg">
           Testimonials
         </h3>
-        <p className="mb-6 pb-2 md:mb-12 md:pb-0 text-gray-600">
+        <p className="mb-6 pb-2 md:mb-12 md:pb-0 font-bold text-gray-2 text-b">
           Here are some success stories from our clients who have leveraged our
           software solutions at OctaForge.
         </p>
@@ -13,7 +13,7 @@ export const CustomerTestimonials = () => {
 
       <div className="grid gap-6 text-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="flex justify-center">
-          <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/0 w-full max-w-sm h-[400px]">
+          <div className="rounded-[25px] border-[5px] border-gray-4 bg-gray-6  block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/0 w-full max-w-sm h-[400px]">
             <div className="h-28 overflow-hidden rounded-t-lg bg-[#2BB9F4]"></div>
             <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
               <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
@@ -38,7 +38,7 @@ export const CustomerTestimonials = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30 w-full max-w-sm h-[400px]">
+          <div className=" rounded-[25px] border-[5px] border-gray-4 bg-gray-6  block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30 w-full max-w-sm h-[400px]">
             <div className="h-28 overflow-hidden rounded-t-lg bg-[#0F85EC]"></div>
             <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
               <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" />
@@ -63,7 +63,7 @@ export const CustomerTestimonials = () => {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30 w-full max-w-sm h-[400px]">
+          <div className="rounded-[25px] border-[5px] border-gray-4 bg-gray-6  block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30 w-full max-w-sm h-[400px]">
             <div className="h-28 overflow-hidden rounded-t-lg bg-[#47EDFC]"></div>
             <div className="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
               <img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
